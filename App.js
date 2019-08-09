@@ -5,6 +5,9 @@ import FirstStateScreen from './screens/FirstStateScreen';
 import SecondePropsScreen from './screens/SecondePropsScreen';
 import StyleScreen from './screens/StyleScreen';
 import HeightAndWidthScreen from './screens/HeightAndWidthScreen';
+import HandingTouchesScreen from './screens/HandingTouchesScreen';
+import HandingTextInput from './screens/HandingTextInputScreen';
+import ScrollViewScreen from './screens/ScrollViewScreen';
 
 export default function App() {
   return (
@@ -13,9 +16,12 @@ export default function App() {
       <StyleScreen />
       <SecondePropsScreen />
       <FirstStateScreen /> */}
-      <HeightAndWidthScreen />
+      {/* <HeightAndWidthScreen />
       <View style={{flex:2,backgroundColor:'pink'}} />
-      <HeightAndWidthScreen />
+      <HeightAndWidthScreen /> */}
+      {/* <HandingTouchesScreen />
+      <HandingTextInput /> */}
+      <ScrollViewScreen />
     </React.Fragment>
   );
 }
