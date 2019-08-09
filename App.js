@@ -14,6 +14,7 @@ export default function App() {
       <SecondePropsScreen />
       <FirstStateScreen /> */}
       <HeightAndWidthScreen />
+      <View style={{flex:2,backgroundColor:'pink'}} />
       <HeightAndWidthScreen />
     </React.Fragment>
   );

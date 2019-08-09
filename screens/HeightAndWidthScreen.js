@@ -11,7 +11,7 @@ export default class HeightAndWidthScreen extends Component {
             //     <View style={{width:200, height:100, backgroundColor: 'blue'}} />
             //     <View style={{width:300, height:100, backgroundColor: 'darkblue'}} />
             // </View>
-            <View style={{flex:10}}>
+            <View style={{flex:3}}>
                 <View style={{alignItems : 'center', height: 70, backgroundColor: 'powderblue'}}> 
                     <Text style={{color : 'blue', fontSize: 30}}>개꿀!!</Text>
                 </View>
