@@ -4,14 +4,17 @@ import FirstPropsScreen from './screens/FirstPropsScreen';
 import FirstStateScreen from './screens/FirstStateScreen';
 import SecondePropsScreen from './screens/SecondePropsScreen';
 import StyleScreen from './screens/StyleScreen';
+import HeightAndWidthScreen from './screens/HeightAndWidthScreen';
 
 export default function App() {
   return (
     <React.Fragment>
-      <FirstPropsScreen />
+      {/* <FirstPropsScreen />
       <StyleScreen />
       <SecondePropsScreen />
-      <FirstStateScreen />
+      <FirstStateScreen /> */}
+      <HeightAndWidthScreen />
+      <HeightAndWidthScreen />
     </React.Fragment>
   );
 }
