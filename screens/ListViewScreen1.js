@@ -8,7 +8,7 @@ const data = [
     {key:"miya"},
     {key:"jisu"},
     {key:"Joel"},
-    {Key:"Test"},
+    {key:"?????"},
     {key:"멍청이"},
     {key:"돼지"},
     {key:"ping"},
@@ -16,7 +16,21 @@ const data = [
     {key:"pride"},
     {key:"chicken"},
     {key:"bike"},
-    {key:"Book"}
+    {key:"Book"},
+    {key:"Devin"},
+    {key:"hanso"},
+    {key:"miya"},
+    {key:"jisu"},
+    {key:"Joel"},
+    {key:"!!!!!"},
+    {key:"멍청이"},
+    {key:"돼지"},
+    {key:"ping"},
+    {key:"network"},
+    {key:"pride"},
+    {key:"chicken"},
+    {key:"bike"},
+    {key:"Book"},   
 ]
 
 export default class ListViews extends Component {
@@ -26,7 +40,7 @@ export default class ListViews extends Component {
                 <FlatList
                 data={data}
                 renderItem={({item})=>
-                <Text style={styles.item}>{item.key}</Text>
+                    <Text style={styles.item}>{item.key}</Text>
                 }
                 />
             </View>
