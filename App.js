@@ -8,8 +8,9 @@ import HeightAndWidthScreen from './screens/HeightAndWidthScreen';
 import HandingTouchesScreen from './screens/HandingTouchesScreen';
 import HandingTextInput from './screens/HandingTextInputScreen';
 import ScrollViewScreen from './screens/ScrollViewScreen';
-import ListViewScreen1 from './screens/ListViewScreen1.js';
+import ListViewScreen1 from './screens/ListViewScreen1';
 import NetworkingScreen from './screens/NetworkingScreen';
+import SetElement from './screens/SetElement';
 
 export default function App() {
   return (
@@ -25,7 +26,8 @@ export default function App() {
       <HandingTextInput /> */}
       {/* <ScrollViewScreen /> */}
       {/* <ListViewScreen1 /> */}
-      <NetworkingScreen />
+      {/* <NetworkingScreen /> */}
+      <SetElement />
     </React.Fragment>
   );
 }
